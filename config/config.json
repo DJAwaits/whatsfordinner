@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "juarez_ejy3",
+    "password": "heavy507Cat",
+    "database": "juarez_ejy3_db",
+    "host": "web-applications.caj7agbzaqsl.us-west-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
