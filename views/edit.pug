@@ -25,6 +25,6 @@ block content
                     textarea(id='description' name='description') #{restaurant.description}
                 div.button-row
                     a.button.cancel(href='/') Cancel
-                    a.button.delete(href=`/delete/#{restaurant.id}`) Delete
+                    a.button.delete(href=`/delete/${restaurant.id}`) Delete
                     button.button.save(type='submit') Submit
 
